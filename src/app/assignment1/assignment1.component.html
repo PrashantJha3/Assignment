@@ -1,0 +1,32 @@
+<div class ="top">
+<table class ="border" mdbTable bordered="true" >
+  <thead>
+    <tr>
+      <th class ="border" *ngFor="let head of headElements" scope="col">{{head}} </th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr  mdbTableCol *ngFor="let el of elements">
+      <th class ="border" scope="row">{{el.id}}</th>
+      <td class ="border">{{el.name}}</td>
+      <td class ="border">{{el.location}}</td>
+    </tr>
+  </tbody>
+</table>
+<table class ="border" mdbTable bordered="true" *ngIf="changeText">
+  <thead>
+    <tr>
+      <th class ="border" *ngFor="let head of headElements" scope="col">{{head}} </th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr  mdbTableCol *ngFor="let el of elements">
+      <th class ="border" scope="row">{{el.id}}</th>
+      <td class ="border">{{el.name}}</td>
+      <td class ="border">{{el.location}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class= "text-underline">Paragraph text is getting underlined while hovering!</p>
+

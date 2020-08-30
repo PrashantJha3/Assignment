@@ -1,0 +1,17 @@
+{
+"Products":[
+{
+"name": "Mouse",
+"quantity": 4
+},
+{
+"name": "Mobile",
+"quantity": 2
+},
+{
+"name": "Laptop",
+"quantity": 4
+}
+]
+
+}

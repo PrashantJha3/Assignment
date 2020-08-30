@@ -1,0 +1,20 @@
+.top{
+	padding-top: 5%;
+}
+.top-pad{
+	margin-top: 2%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+.marg-left{
+	margin: 0 0 0 20px;
+}
+.marg-right{
+	marg-right: 10px;
+}

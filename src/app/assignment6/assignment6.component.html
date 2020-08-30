@@ -1,0 +1,17 @@
+<div class = "top">
+
+<h1 class ="text-color"> Demonstration of obtaining data from server through a service  </h1>
+
+
+<table id= "products">
+  <tr>
+    <th *ngFor ="let col of columns">{{col}}</th>
+  </tr>
+  
+  <tr *ngFor="let the product of products" >
+    <td *ngFor="let col of index">{{products [col]}}</td>
+  
+  </tr>
+</table>
+
+</div>
